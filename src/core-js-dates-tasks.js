@@ -217,21 +217,6 @@ function getWeekNumberByDate(date) {
  */
 function getNextFridayThe13th(/* date */) {
   throw new Error('Not implemented');
-  // let month = date.getMonth();
-  // let year = date.getFullYear();
-
-  // while (true) {
-  //   month += 1;
-  //   if (month > 11) {
-  //     month = 0;
-  //     year += 1;
-  //   }
-
-  //   const candidateDate = new Date(Date.UTC(year, month, 13));
-  //   if (candidateDate.getUTCDay() === 5) {
-  //     return candidateDate.toISOString();
-  //   }
-  // }
 }
 
 /**
